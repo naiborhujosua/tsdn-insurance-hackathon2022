@@ -5,3 +5,4 @@ seaborn
 shap
 numpy
 scikit-learn
+matplotlib
