@@ -58,14 +58,3 @@ def show_explore_page():
     st.write(""" #### The comparison of customers who are likely to get more risk over no risk""")
     st.pyplot(fig)
 
-
-
-    fig, ax = plt.subplots( figsize=(25,15))
-    Col_kde = [col for col in df.columns if col not in ["Response"]]
-    for i, column in enumerate(df[Col_kde].columns):
-        plt.hist(data=df,
-                x=column,
-                hue="Response", fill=True, common_norm=True,
-                color="r",
-                ax=ax[i//3,i%3])
-    st.pyplot(fig)
