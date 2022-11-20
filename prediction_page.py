@@ -15,7 +15,6 @@ def show_predict_page():
     st.image(image, caption='Prudential Life Insurance AssessmentS')
     st.title("Insurance Risk rate Prediction")
 
-    st.write("""### We need some information""")
     df = pd.read_csv("insurance_data.csv")
     df = df.fillna(df.mean())
     feature_names = [col for col in df.columns if col not in ["Response"]]
