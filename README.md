@@ -1,1 +1,1 @@
-# tsdn-insurance-hackathon2022
+# insurance_streamlit_hackathon
