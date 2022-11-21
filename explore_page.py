@@ -23,8 +23,6 @@ def show_explore_page():
     st.write("""
     ### Explore Prudential Life Insurance Assessment Data
 
-    Product_Info : A set of normalized variables relating to the product applied for
-
     Ins_Age : Normalized age of applicant
 
     Ht : Normalized height of applicant
