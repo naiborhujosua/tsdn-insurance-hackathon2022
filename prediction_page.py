@@ -12,7 +12,7 @@ st.set_page_config(initial_sidebar_state='expanded')
 
 def show_predict_page():
     image = Image.open('bg.jpg')
-    st.image(image, caption='Prudential Life Insurance AssessmentS')
+    st.image(image, caption='Prudential Life Insurance Assessment')
     st.title("Insurance Risk rate Prediction")
 
     df = pd.read_csv("insurance_data.csv")
